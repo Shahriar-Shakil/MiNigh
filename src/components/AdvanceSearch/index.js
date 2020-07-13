@@ -8,6 +8,7 @@ import styled from "styled-components";
 import SliderComponent from "./../Common/Slider/index";
 import Button from "@material-ui/core/Button";
 import Checkbox from "@material-ui/core/Checkbox";
+import SelectUI from "./../Common/SelectUI/index";
 
 const AdvanceSearch = () => {
   const [checked, setChecked] = React.useState(true);
@@ -19,15 +20,7 @@ const AdvanceSearch = () => {
     <StyledSearchForm className="row m-0">
       <form className="form-inline w-100  justify-content-around">
         <div className="form-group ">
-          <label
-            htmlFor="exampleFormControlSelect1"
-            className="font-weight-bold d-block"
-          >
-            I am a:
-          </label>
-          <select className="form-control" id="exampleFormControlSelect1">
-            <option>Student</option>
-          </select>
+          <SelectUI inputLabel={"I am a"} />
         </div>
         <div className="form-group ">
           <label
@@ -39,15 +32,7 @@ const AdvanceSearch = () => {
           </label>
         </div>
         <div className="form-group ">
-          <label
-            // htmlFor="exampleFormControlSelect1"
-            className="font-weight-bold d-block"
-          >
-            Looking for:
-          </label>
-          <select className="form-control" id="">
-            <option>Job</option>
-          </select>
+          <SelectUI inputLabel={"Looking for"} />
         </div>
         <div className="form-group ">
           <label
