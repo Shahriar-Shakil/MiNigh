@@ -8,6 +8,7 @@ import Box from "@material-ui/core/Box";
 import Grid from "@material-ui/core/Grid";
 import {withRouter} from "react-router";
 import AdvanceSearch from "./../components/AdvanceSearch/index";
+import NearbyControlButtons from "./../components/NearByControlButtons/index";
 const useStyles = makeStyles((theme) => ({
   text: {
     padding: theme.spacing(2, 2, 0)
@@ -36,13 +37,22 @@ const NearBy = (props) => {
       <Paper className={classes.paper}>
         <Grid container spacing={2}>
           <Grid item xs={12}>
-            <Typography variant="h4" gutterBottom>
+            {/* <Typography variant="h4" gutterBottom>
               People online nearby you.
-            </Typography>
+            </Typography> */}
             <AdvanceSearch />
           </Grid>
           <Grid xs={12} md={12}>
             <Maps redirectTo={redirectTo} className={classes.maps} />
+          </Grid>
+          <Grid
+            container
+            direction="row"
+            justify="center"
+            alignItems="center"
+            className="py-2"
+          >
+            <NearbyControlButtons />
           </Grid>
         </Grid>
       </Paper>
