@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b780d611d89fa1d1624f432046e8307",
+    "revision": "760bf680e889fceac07e21fd6f8424eb",
     "url": "/MiNigh/index.html"
   },
   {
-    "revision": "33d0a6308a5cccc21502",
+    "revision": "004ffc8dba5fdafcf804",
     "url": "/MiNigh/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "fb4aac70aaa936feca9d",
+    "revision": "aadea4c727fd15c15413",
     "url": "/MiNigh/static/css/main.94dcba47.chunk.css"
   },
   {
-    "revision": "33d0a6308a5cccc21502",
-    "url": "/MiNigh/static/js/2.24135b89.chunk.js"
+    "revision": "004ffc8dba5fdafcf804",
+    "url": "/MiNigh/static/js/2.b13254b0.chunk.js"
   },
   {
-    "revision": "fb4aac70aaa936feca9d",
-    "url": "/MiNigh/static/js/main.ea34517f.chunk.js"
+    "revision": "aadea4c727fd15c15413",
+    "url": "/MiNigh/static/js/main.959c946a.chunk.js"
   },
   {
     "revision": "50d75fc9aa261e53d5fd",
