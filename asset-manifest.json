@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/MiNigh/static/css/main.94dcba47.chunk.css",
+    "main.js": "/MiNigh/static/js/main.fbf34588.chunk.js",
+    "main.js.map": "/MiNigh/static/js/main.fbf34588.chunk.js.map",
+    "runtime-main.js": "/MiNigh/static/js/runtime-main.e0573215.js",
+    "runtime-main.js.map": "/MiNigh/static/js/runtime-main.e0573215.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/MiNigh/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.e06e0eda.chunk.js": "/MiNigh/static/js/2.e06e0eda.chunk.js",
+    "static/js/2.e06e0eda.chunk.js.map": "/MiNigh/static/js/2.e06e0eda.chunk.js.map",
+    "index.html": "/MiNigh/index.html",
+    "precache-manifest.960e932e98f1baf03c6d5659fa15afe8.js": "/MiNigh/precache-manifest.960e932e98f1baf03c6d5659fa15afe8.js",
+    "service-worker.js": "/MiNigh/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/MiNigh/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.94dcba47.chunk.css.map": "/MiNigh/static/css/main.94dcba47.chunk.css.map"
+  }
+}
